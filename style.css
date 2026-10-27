@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e9d9d0;
+    color: #FF8FAB;
+    background: url(wallpaper\ mc.jfif) no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+    width: 40%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+}
+
+.download-cv a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e4517f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contact img {
+    width: 24px;
+    height: 24px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #FF5D8F;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ff477e;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FF8FAB;
+    padding-bottom: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skills span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e4517f;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+p, li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+
+    .bottom-section {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+    }
+
+}
+
